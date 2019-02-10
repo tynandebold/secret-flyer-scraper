@@ -1,0 +1,35 @@
+{
+  "name": "secret-flyer-scraper",
+  "version": "1.0.0",
+  "description": "Get the first few flight deals on the Secret Flyer website via the command line so we don't have to look at that awful page.",
+  "main": "./lib/index.js",
+  "bin": {
+    "secretflyer": "./bin/module.js"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "cli-app",
+    "cli",
+    "flight-scraping",
+    "flight",
+    "travel-app",
+    "travel",
+    "secret-flyer",
+    "flights",
+    "flight-deals"
+  ],
+  "author": "Tynan DeBold <thdebold@gmail.com> (https://www.tynandebold.com/)",
+  "repository": "github:tynandebold/secret-flyer-scraper",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.4.0",
+    "npm": ">=3.8.6"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "colors": "^1.3.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "yargs": "^12.0.5"
+  }
+}
