@@ -8,7 +8,7 @@ $ npm install -g secret-flyer-scraper
 
 ## Usage
 ```sh
-# Fetch some Secret Flyer flight deals for the default location (Copenhagen, where I live)
+# Fetch some Secret Flyer flight deals for the default location (which is set to Copenhagen, since that's where I live)
 $ secretflyer
 
 # ...or a specific place
